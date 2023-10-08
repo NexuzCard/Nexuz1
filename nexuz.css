@@ -1,0 +1,119 @@
+
+.profile-picture {
+    background-image: 
+        linear-gradient(rgba(255, 255, 255, 0.056),rgba(0, 0, 0, 0.777)), 
+        url(thumbnails/pawel-czerwinski-tMbQpdguDVQ-unsplash.jpg);
+    display: block;
+    width: 100%;
+    margin: auto;
+    min-width: 350px;
+    max-width: 800px;
+    height: 550px;
+    border-radius: 20px; 
+    background-size: cover;
+}
+
+.name {
+    display: inline-block;
+    text-align: left;
+    font-size: 25px;
+    font-family: arial;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 5px;
+    text-shadow: 0px 0px 20px rgb(39, 39, 39);
+}
+
+.name-title {
+    display: inline-block;
+    text-align: left;
+    font-size: 15px;
+    font-family: arial;
+    color: rgba(255, 255, 255, 0.545);
+    margin-top: 0px;
+    margin-left: 30px;
+    text-shadow: 0px 0px 20px rgb(39, 39, 39);
+}
+
+.button {
+    display: inline-block;
+    width: 70px;
+    border-radius: 100px;
+    margin-top: 350px;
+    margin-left: 30px;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0.232);
+    box-shadow: 0px 0px 20px rgb(39, 39, 39);
+    backdrop-filter: saturate(180%) blur(5px);
+    cursor: pointer;
+}
+
+
+.box-icon { 
+    width: 100%;
+    margin: auto;
+    min-width: 350px;
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: 2.5fr 1fr 1fr 1fr;
+    column-gap: 5px;
+    
+}
+
+.connect-button {
+    display: grid;
+    grid-template-columns: 40px 100px;
+    column-gap: 8px;
+}
+
+.contact-button,
+.video-section,
+.map-section {
+    width: 100%;
+    margin: auto;
+    min-width: 350px;
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: 1fr;
+
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px rgba(39, 39, 39, 0.159);
+
+    height: 155px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.app-section {
+    width: 100%;
+    margin: auto;
+    min-width: 350px;
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: 1fr;
+
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px rgba(39, 39, 39, 0.159);
+    height: 80px;
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255);
+    
+
+    display: grid;
+    grid-template-columns: 50px 400px;
+    column-gap: 8px;
+}
+
+.gallery-box { 
+    width: 100%;
+    margin: auto;
+    min-width: 350px;
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    
+}
